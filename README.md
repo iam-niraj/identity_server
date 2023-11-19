@@ -71,6 +71,10 @@ You may need to change the environment variable on each project, either
 - run `$Env:ASPNETCORE_ENVIRONMENT = "Development"` in Windows powershell terminal
 - run `ASPNETCORE_ENVIRONMENT=Development` in Linux bash
 
+Also run the below command before running SPA due to version compatibility
+
+- run `$env:NODE_OPTIONS = "--openssl-legacy-provider"` in Windows
+
 ### Credits
 
 - [IdentityServer4.Samples](https://github.com/IdentityServer/IdentityServer4.Samples)
